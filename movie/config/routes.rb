@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   root 'site#index'
 
   # movies routes
-  get 'api/movies', to: 'movies#index'
-  get 'api/movies/:id', to: 'movies#show'
-  post 'api/movies', to: 'movies#create'
-  delete 'api/movies/:id', to: 'movies#delete'
-  put 'api/movies/:id', to: 'movies#update'
+  get '/movies', to: 'movies#index'
+  get '/movies/:id', to: 'movies#show'
+  post '/movies', to: 'movies#create'
+  delete '/movies/:id', to: 'movies#delete'
+  put '/movies/:id', to: 'movies#update'
 end

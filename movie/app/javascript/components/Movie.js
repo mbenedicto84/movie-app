@@ -1,30 +1,45 @@
+// =============================
+// DEPENDENCIES
+// =============================
+// packages
+import React from 'react'
+import Form from './Form.js'
+// =============================
+// COMPONENT CLASS
+// =============================
+class Movie extends React.Component {
 
-import React, { Component } from 'react';
 
-class Movies extends Component {
-  constructor () {
-  super()
-  this.state = {
-    liked: false
-  }
-  this.toggleLike = this.toggleLike.bind(this)
-}
-toggleLike() {
-  this.setState({ liked: !this.state.liked })
-}
-  render() {
+  // ==============
+  // RENDER
+  // ==============
+  render () {
     return (
-    <div className="movie">
-        <h1 onClick={() => { this.props.handleAdd(this.props.movies); this.toggleLike() }}>
-              {this.props.movies.title}
-        </h1>
-        <h2>{this.props.movies.artist}</h2>
-        <h3>{this.props.movies.time}</h3>
-        { this.state.liked ? <h4>&hearts;</h4> : null }
-        <div onClick={() => {this.props.handleDelete(this.props.index)}}>X</div>
-    </div>
-  )
+      <article>
+        <div className="movie-title">
+        <h1> {this.props.postData.title}</h1>
+        </div>
+        <div className="movie-rating">
+        {this.props.postData.rating}
+        </div>
+        <div className="movie-year">
+        {this.props.postData.year}
+        </div>
+        <div className="movie-recommend">
+        {this.props.postData.recommend}
+        </div>
+        <div className="movie-options">
+         <ul>
+          <li onClick={() => {this.props.handleView('editPost', this.props.postData)}}>edit post</li>
+           <li onClick={() => {this.props.handleDelete(this.props.postData.id)}}>delete post</li>
+         </ul>
+       </div>
+      </article>
+    )
   }
 }
 
-export default Movies;
+// =============================
+// EXPORT
+// =============================
+export default Movie

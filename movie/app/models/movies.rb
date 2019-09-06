@@ -3,30 +3,14 @@ class Movies
         uri = URI.parse(ENV['DATABASE_URL'])
         DB = PG.connect(uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password)
     else
-        DB = PG.connect(host: "localhost", port: 5432, dbname: 'movies_developement',:user => "pguser", :password => "pguser")
+        DB = PG.connect(host: "localhost", port: 5432, dbname: 'movies_development',:user => "pguser", :password => "pguser")
     end
 
   # ===============================
   # PREPARED STATEMENTS
   # ===============================
   # create movies
-  DB.prepare("create_movies",
-    <<-SQL
-      INSERT INTO movies (title, rating, year, recommend)
-      VALUES ($1, $2, $3)
-      RETURNING id, title, rating, year, recommend;
-    SQL
-  )
 
-  # update movies
-  DB.prepare("update_movies",
-    <<-SQL
-      UPDATE movies
-      SET title = $2, rating = $3, year = $4, recommend = $5
-      WHERE id = $1
-      RETURNING id, title, rating, year, recommend;
-    SQL
-  )
 
   # ===============================
   # ROUTES
@@ -37,6 +21,10 @@ class Movies
     return results.map do |result|
       {
           "id" => result["id"].to_i,
+           "title" => result["title"],
+            "rating" => result["rating"],
+             "recommend" => result["recommend"],
+
 
       }
     end
@@ -50,6 +38,12 @@ class Movies
     if !results.num_tuples.zero?
       return {
         "id" => results.first["id"].to_i,
+        "title" => results.first["title"],
+          "rating" => results.first["rating"],
+          "year" => results.first["year"],
+              "recommend" => results.first["recommend"]
+
+
 
       }
 
@@ -65,7 +59,10 @@ class Movies
     results = DB.exec_prepared("create_movies", [opts["title"], opts["rating"], opts["year"],opts["recommend"]])
     return {
       "id" => results.first["id"].to_i,
-        "year" => results.first["year"].to_i
+      "title" => results.first["title"],
+        "rating" => results.first["rating"],
+        "year" => results.first["year"],
+            "recommend" => results.first["recommend"]
 
     }
   end
@@ -79,7 +76,10 @@ class Movies
     results = DB.exec_prepared("update_movies", [id, opts["title"], opts["rating"], opts["year"],opts["recommend"]])
     return {
       "id" => results.first["id"].to_i,
-      "year" => results.first["year"].to_i
+      "title" => results.first["title"],
+        "rating" => results.first["rating"],
+        "year" => results.first["year"],
+            "recommend" => results.first["recommend"]
 
     }
   end
