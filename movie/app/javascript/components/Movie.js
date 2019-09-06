@@ -26,7 +26,7 @@ class Movie extends React.Component {
         <h2>{this.props.postData.year}</h2>
         </div>
         <div className="movie-recommend">
-        <h2>{this.props.postData.recommend}</h2>
+        <h2>Recommend: {this.props.postData.recommend}</h2>
         </div>
         <div className="movie-options">
          <ul>
