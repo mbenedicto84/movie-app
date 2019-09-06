@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  # root route
+  root 'site#index'
+
+  # movies routes
+  get 'api/movies', to: 'movies#index'
+  get 'api/movies/:id', to: 'movies#show'
+  post 'api/movies', to: 'movies#create'
+  delete 'api/movies/:id', to: 'movies#delete'
+  put 'api/movies/:id', to: 'movies#update'
 end
