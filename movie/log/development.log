@@ -6984,3 +6984,378 @@ Processing by MoviesController#index as */*
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 743)
 
 
+Started GET "/" for ::1 at 2019-09-06 19:26:42 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2470ms (Views: 2469.2ms | ActiveRecord: 0.0ms | Allocations: 3998)
+
+
+Started GET "/" for ::1 at 2019-09-06 19:27:29 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2309ms (Views: 2307.9ms | ActiveRecord: 0.0ms | Allocations: 4865)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:27:31 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1648)
+
+
+  
+SyntaxError (/home/chico/movie-app/movie/app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+      "recommend" => results.first["...
+      ^
+/home/chico/movie-app/movie/app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+      "recommend" => results.first["recommend"]
+                  ^~
+/home/chico/movie-app/movie/app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+    }
+    ^):
+  
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:28:40 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3729)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:28:41 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2105)
+
+
+  
+SyntaxError (/home/chico/movie-app/movie/app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+      "recommend" => results.first["...
+      ^
+/home/chico/movie-app/movie/app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+      "recommend" => results.first["recommend"]
+                  ^~
+/home/chico/movie-app/movie/app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+    }
+    ^):
+  
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:28:43 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3584)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:28:43 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1641)
+
+
+  
+SyntaxError (/home/chico/movie-app/movie/app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+      "recommend" => results.first["...
+      ^
+/home/chico/movie-app/movie/app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+      "recommend" => results.first["recommend"]
+                  ^~
+/home/chico/movie-app/movie/app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+    }
+    ^):
+  
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:103: syntax error, unexpected =>, expecting end
+app/models/movies.rb:105: syntax error, unexpected '}', expecting end
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:29:18 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3701)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:29:18 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1946)
+
+
+  
+PG::UndefinedColumn (ERROR:  column "image" of relation "movies" does not exist
+LINE 1:     INSERT INTO movies (title, rating, year,image,recommend)
+                                                    ^
+):
+  
+app/models/movies.rb:10:in `async_prepare'
+app/models/movies.rb:10:in `<class:Movies>'
+app/models/movies.rb:1:in `<main>'
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:32:12 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2305ms (Views: 2304.1ms | ActiveRecord: 0.0ms | Allocations: 4865)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:32:14 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1215)
+
+
+  
+NoMethodError (undefined method `all' for Movies:Class):
+  
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:35:48 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3705)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:35:48 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1940)
+
+
+  
+PG::SyntaxError (ERROR:  INSERT has more expressions than target columns
+LINE 2:         VALUES ($1, $2, $3, $4, $5, $6)
+                                            ^
+):
+  
+app/models/movies.rb:10:in `async_prepare'
+app/models/movies.rb:10:in `<class:Movies>'
+app/models/movies.rb:1:in `<main>'
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:36:35 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 205)
+Completed 200 OK in 588ms (Views: 583.7ms | ActiveRecord: 0.0ms | Allocations: 1263798)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:36:35 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 1625)
+
+
+  
+PG::SyntaxError (ERROR:  INSERT has more expressions than target columns
+LINE 2:         VALUES ($1, $2, $3, $4, $5, $6)
+                                            ^
+):
+  
+app/models/movies.rb:10:in `async_prepare'
+app/models/movies.rb:10:in `<class:Movies>'
+app/models/movies.rb:1:in `<main>'
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:38:06 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2352ms (Views: 2351.7ms | ActiveRecord: 0.0ms | Allocations: 4922)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:38:09 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1219)
+
+
+  
+NoMethodError (undefined method `all' for Movies:Class):
+  
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:40:48 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2308ms (Views: 2307.3ms | ActiveRecord: 0.0ms | Allocations: 4988)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:40:50 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 1103)
+
+
+  
+PG::SyntaxError (ERROR:  INSERT has more expressions than target columns
+LINE 2:         VALUES ($1, $2, $3, $4, $5, $6)
+                                            ^
+):
+  
+app/models/movies.rb:10:in `async_prepare'
+app/models/movies.rb:10:in `<class:Movies>'
+app/models/movies.rb:1:in `<main>'
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:46:49 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3584)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:46:49 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1204)
+
+
+  
+NoMethodError (undefined method `all' for Movies:Class):
+  
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:48:24 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2207ms (Views: 2206.3ms | ActiveRecord: 0.0ms | Allocations: 3864)
+
+
+Started GET "/" for ::1 at 2019-09-06 19:48:39 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2395ms (Views: 2394.3ms | ActiveRecord: 0.0ms | Allocations: 4866)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:48:41 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1207)
+
+
+  
+NoMethodError (undefined method `all' for Movies:Class):
+  
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:53:11 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2408ms (Views: 2407.4ms | ActiveRecord: 0.0ms | Allocations: 4866)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:53:14 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1207)
+
+
+  
+NoMethodError (undefined method `all' for Movies:Class):
+  
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:54:02 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 205)
+Completed 200 OK in 537ms (Views: 533.5ms | ActiveRecord: 0.0ms | Allocations: 1260149)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:54:03 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 1619)
+
+
+  
+PG::SyntaxError (ERROR:  INSERT has more expressions than target columns
+LINE 2:         VALUES ($1, $2, $3, $4, $5, $6)
+                                            ^
+):
+  
+app/models/movies.rb:10:in `async_prepare'
+app/models/movies.rb:10:in `<class:Movies>'
+app/models/movies.rb:1:in `<main>'
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 19:54:58 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3729)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:54:58 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 15ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 2362)
+
+
+Started GET "/" for ::1 at 2019-09-06 19:56:48 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2518ms (Views: 2517.6ms | ActiveRecord: 0.0ms | Allocations: 4904)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:56:51 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 946)
+
+
+Started GET "/" for ::1 at 2019-09-06 19:57:39 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2448ms (Views: 2446.9ms | ActiveRecord: 0.0ms | Allocations: 4864)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:57:41 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 939)
+
+
+Started GET "/" for ::1 at 2019-09-06 19:57:53 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2483ms (Views: 2482.7ms | ActiveRecord: 0.0ms | Allocations: 4863)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 19:57:55 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 947)
+
+

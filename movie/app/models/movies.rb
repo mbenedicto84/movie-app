@@ -9,9 +9,9 @@ class Movies
 
     DB.prepare("create_movies",
   <<-SQL
-    INSERT INTO movies (title, rating, year,recommend)
-        VALUES ($1, $2, $3, $4)
-    RETURNING id, title, rating, year, recommend;
+    INSERT INTO movies (title, rating, year, image ,recommend)
+        VALUES ($1, $2, $3, $4, $5)
+    RETURNING id, title, rating, year, image,recommend;
   SQL
 )
 
@@ -19,9 +19,9 @@ class Movies
 DB.prepare("update_movies",
   <<-SQL
     UPDATE movies
-    SET title = $2, Rating = $3, year = $4, recommend = $5
+    SET title = $2, Rating = $3, year = $4, image = $5, recommend = $6
     WHERE id = $1
-    RETURNING id, title, rating, year,recommend;
+    RETURNING id, title, rating, year, image, recommend;
   SQL
 )
 
@@ -43,6 +43,7 @@ DB.prepare("update_movies",
           "title" => result["title"],
           "rating" => result["rating"],
           "year" => result["year"],
+          "image" => result["image"],
           "recommend" => result["recommend"],
 
 
@@ -61,6 +62,7 @@ DB.prepare("update_movies",
         "title" => results.first["title"],
         "rating" => results.first["rating"],
         "year" => results.first["year"],
+        "image" => results.first["image"],
         "recommend" => results.first["recommend"]
       }
 
@@ -73,12 +75,13 @@ DB.prepare("update_movies",
 
 
   def self.create(opts)
-    results = DB.exec_prepared("create_movies", [opts["title"], opts["rating"], opts["year"],opts["recommend"]])
+    results = DB.exec_prepared("create_movies", [opts["title"], opts["rating"], opts["year"], opts["image"],opts["recommend"]])
     return {
       "id" => results.first["id"].to_i,
       "title" => results.first["title"],
       "rating" => results.first["rating"],
       "year" => results.first["year"],
+      "image" => results.first["image"],
       "recommend" => results.first["recommend"]
 
     }
@@ -90,12 +93,13 @@ DB.prepare("update_movies",
   end
 
   def self.update(id, opts)
-    results = DB.exec_prepared("update_movies", [id, opts["title"], opts["rating"], opts["year"],opts["recommend"]])
+    results = DB.exec_prepared("update_movies", [id, opts["title"], opts["rating"], opts["year"], opts["image"], opts["recommend"]])
     return {
       "id" => results.first["id"].to_i,
       "title" => results.first["title"],
       "rating" => results.first["rating"],
       "year" => results.first["year"],
+      "image" => results.first["image"],
       "recommend" => results.first["recommend"]
 
     }

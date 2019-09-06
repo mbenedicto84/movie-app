@@ -17,6 +17,7 @@ class Form extends React.Component {
       title: '',
       rating: '',
       year: '',
+      image: '',
       recommend: '',
       id: null,
     }
@@ -49,6 +50,7 @@ class Form extends React.Component {
       title: this.props.formInputs.title,
       rating: this.props.formInputs.rating,
       year: this.props.formInputs.year,
+      image: this.props.formInputs.image,
       recommend: this.props.formInputs.recommend,
       id: this.props.formInputs.id
     })
@@ -70,6 +72,9 @@ class Form extends React.Component {
         <label>
           <input type="text"  placeholder="Year" id="year" value={this.state.year} onChange={this.handleChange}/>
         </label>
+        <label>
+        <input type="text"  placeholder="Poster" id="image" value={this.state.image} onChange={this.handleChange}/>
+      </label>
         <label>
           <input type="text" placeholder="Recommend" id="recommend" value={this.state.recommend} onChange={this.handleChange}/>
         </label>

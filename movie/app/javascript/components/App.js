@@ -23,6 +23,7 @@ class App extends React.Component {
         title:null,
         rating:null,
         year:null,
+        image:null,
         recommend:null,
         id:null
       }
@@ -37,6 +38,7 @@ class App extends React.Component {
         title:'',
         rating:'',
         year: '',
+        image:'',
         recommend:'',
         id:null
       }
@@ -54,6 +56,7 @@ class App extends React.Component {
             title: postData.title,
             rating: postData.rating,
             year: postData.year,
+            image: postData.image,
             recommend: postData.recommend,
             id: postData.id
           }
