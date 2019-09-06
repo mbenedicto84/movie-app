@@ -16,7 +16,7 @@ class App extends React.Component {
     this.state = {
       view: {
         page: 'home',
-        pageTitle: 'What Do You Want To Watch?',
+        pageTitle: '',
       },
       formInputs:{
         title:null,
@@ -42,13 +42,13 @@ class App extends React.Component {
       // decide the pageTitle based on the view
       switch (view) {
         case 'home':
-          pageTitle = 'What Do You Want To Watch'
+          pageTitle = ''
           break
         case 'addPost':
-          pageTitle = 'Are You Sure?'
+          pageTitle = 'Add A New Movie!'
           break
         case 'editPost':
-          pageTitle = 'Did You Like It ?'
+          pageTitle = 'Change Some Facts!'
           formInputs = {
             title: postData.title,
             rating: postData.rating,
@@ -76,8 +76,9 @@ class App extends React.Component {
     return (
       <div className="large-container">
         <Header/>
-        <div className="main-container">
           <Aside handleView={this.handleView}/>
+        <div className="main-container">
+
           <Main
           view={this.state.view}
           handleView={this.handleView}

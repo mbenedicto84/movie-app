@@ -15,7 +15,7 @@ class Movie extends React.Component {
   // ==============
   render () {
     return (
-      <article>
+      <article className="items">
         <div className="movie-title">
         <h1> {this.props.postData.title}</h1>
         </div>
@@ -30,8 +30,8 @@ class Movie extends React.Component {
         </div>
         <div className="movie-options">
          <ul>
-          <li onClick={() => {this.props.handleView('editPost', this.props.postData)}}>edit post</li>
-           <li onClick={() => {this.props.handleDelete(this.props.postData.id)}}>delete post</li>
+          <button onClick={() => {this.props.handleView('editPost', this.props.postData)}}>edit post</button>
+           <button onClick={() => {this.props.handleDelete(this.props.postData.id)}}>delete post</button>
          </ul>
        </div>
       </article>

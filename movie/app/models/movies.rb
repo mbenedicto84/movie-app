@@ -40,10 +40,10 @@ DB.prepare("update_movies",
     return results.map do |result|
       {
           "id" => result["id"].to_i,
-           "title" => result["title"],
-            "rating" => result["rating"],
-            "year" => result["year"],
-             "recommend" => result["recommend"],
+          "title" => result["title"],
+          "rating" => result["rating"],
+          "year" => result["year"],
+          "recommend" => result["recommend"],
 
 
       }
@@ -59,9 +59,9 @@ DB.prepare("update_movies",
       return {
         "id" => results.first["id"].to_i,
         "title" => results.first["title"],
-          "rating" => results.first["rating"],
-          "year" => results.first["year"],
-              "recommend" => results.first["recommend"]
+        "rating" => results.first["rating"],
+        "year" => results.first["year"],
+        "recommend" => results.first["recommend"]
       }
 
     else
@@ -94,9 +94,9 @@ DB.prepare("update_movies",
     return {
       "id" => results.first["id"].to_i,
       "title" => results.first["title"],
-        "rating" => results.first["rating"],
-        "year" => results.first["year"],
-            "recommend" => results.first["recommend"]
+      "rating" => results.first["rating"],
+      "year" => results.first["year"],
+      "recommend" => results.first["recommend"]
 
     }
   end

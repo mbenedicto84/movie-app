@@ -13,11 +13,11 @@ class Aside extends React.Component {
   // ==============
   render () {
     return (
-      <aside>
-      <h1>NAVIGATE</h1>
+      <aside className="menu">
+      <h1>MENU</h1>
       <ul>
-        <li onClick={() => {this.props.handleView('home')}}>Home</li>
-        <li onClick={() => {this.props.handleView('addPost')}}>New Movie</li>
+        <button onClick={() => {this.props.handleView('home')}}>Home</button>
+        <button onClick={() => {this.props.handleView('addPost')}}>New Movie</button>
       </ul>
     </aside>
     )
