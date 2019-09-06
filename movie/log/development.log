@@ -3453,3 +3453,550 @@ Processing by MoviesController#index as */*
 Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 522)
 
 
+Started GET "/" for ::1 at 2019-09-06 14:17:04 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3653)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:17:04 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 530)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:24:09 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2372ms (Views: 2371.8ms | ActiveRecord: 0.0ms | Allocations: 4906)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:24:11 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 808)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:29:27 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2421ms (Views: 2420.2ms | ActiveRecord: 0.0ms | Allocations: 4909)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:29:29 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 526)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:40:04 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2206ms (Views: 2205.4ms | ActiveRecord: 0.0ms | Allocations: 4906)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:40:07 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 522)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:41:12 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2464ms (Views: 2463.2ms | ActiveRecord: 0.0ms | Allocations: 4912)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:41:15 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 888)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 14:41:29 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"marcos", "rating"=>"R", "year"=>"100", "recommend"=>"yes", "id"=>nil, "movie"=>{"title"=>"marcos", "rating"=>"R", "year"=>"100", "recommend"=>"yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 963)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:59:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started POST "/movies" for ::1 at 2019-09-06 14:41:52 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"marcos", "rating"=>"r", "year"=>"21", "recommend"=>"asdf", "id"=>nil, "movie"=>{"title"=>"marcos", "rating"=>"r", "year"=>"21", "recommend"=>"asdf", "id"=>nil}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 962)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:59:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 14:42:30 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2237ms (Views: 2236.5ms | ActiveRecord: 0.0ms | Allocations: 4909)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:42:32 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 523)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:42:53 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2189ms (Views: 2187.9ms | ActiveRecord: 0.0ms | Allocations: 4907)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:42:56 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1712)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:43:42 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3649)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:43:42 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 788)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 14:44:06 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>nil, "rating"=>nil, "year"=>nil, "recommend"=>nil, "id"=>nil, "movie"=>{"title"=>nil, "rating"=>nil, "year"=>nil, "recommend"=>nil, "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 964)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:59:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 14:52:30 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2568ms (Views: 2567.5ms | ActiveRecord: 0.0ms | Allocations: 4912)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:52:33 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 522)
+
+
+Started GET "/movies/1" for ::1 at 2019-09-06 14:54:22 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 306)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:54:44 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 3652)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:54:44 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 531)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:56:55 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2796ms (Views: 2795.5ms | ActiveRecord: 0.0ms | Allocations: 4909)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:56:58 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1219)
+
+
+Started GET "/" for ::1 at 2019-09-06 14:58:31 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2760ms (Views: 2759.4ms | ActiveRecord: 0.0ms | Allocations: 4910)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 14:58:34 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 530)
+
+
+Started GET "/" for ::1 at 2019-09-06 15:01:44 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2553ms (Views: 2552.1ms | ActiveRecord: 0.0ms | Allocations: 4909)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:01:47 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 531)
+
+
+Started GET "/" for ::1 at 2019-09-06 15:11:46 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3652)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:11:47 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 530)
+
+
+Started GET "/" for ::1 at 2019-09-06 15:13:45 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 3651ms (Views: 3650.4ms | ActiveRecord: 0.0ms | Allocations: 4914)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:13:48 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 523)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:14:03 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"hello", "rating"=>"R", "year"=>"3", "recommend"=>"Yes", "id"=>nil, "movie"=>{"title"=>"hello", "rating"=>"R", "year"=>"3", "recommend"=>"Yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 956)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:59:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:26:36 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3768)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:26:36 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 1078)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "posts" does not exist
+LINE 1:     INSERT INTO posts (title, rating, year,recommend)
+                        ^
+):
+  
+app/models/movies.rb:10:in `async_prepare'
+app/models/movies.rb:10:in `<class:Movies>'
+app/models/movies.rb:1:in `<main>'
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/movies/1" for ::1 at 2019-09-06 15:26:55 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1201)
+
+
+  
+NoMethodError (undefined method `find' for Movies:Class):
+  
+app/controllers/movies_controller.rb:11:in `show'
+Started GET "/movies" for ::1 at 2019-09-06 15:27:05 -0400
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1203)
+
+
+  
+NoMethodError (undefined method `all' for Movies:Class):
+  
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 15:28:27 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3650)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:28:27 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1206)
+
+
+  
+NoMethodError (undefined method `all' for Movies:Class):
+  
+app/controllers/movies_controller.rb:6:in `index'
+Started POST "/movies" for ::1 at 2019-09-06 15:28:46 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"t", "year"=>"1333", "recommend"=>"1", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"t", "year"=>"1333", "recommend"=>"1", "id"=>nil}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1211)
+
+
+  
+NoMethodError (undefined method `create' for Movies:Class):
+  
+app/controllers/movies_controller.rb:16:in `create'
+Started POST "/movies" for ::1 at 2019-09-06 15:28:48 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"t", "year"=>"1333", "recommend"=>"1", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"t", "year"=>"1333", "recommend"=>"1", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1210)
+
+
+  
+NoMethodError (undefined method `create' for Movies:Class):
+  
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:29:35 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3774)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:29:35 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1076)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:29:46 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"r", "year"=>"2000", "recommend"=>"yes", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"r", "year"=>"2000", "recommend"=>"yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 965)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:78:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started POST "/movies" for ::1 at 2019-09-06 15:29:47 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"r", "year"=>"2000", "recommend"=>"yes", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"r", "year"=>"2000", "recommend"=>"yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 964)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:78:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:32:27 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3776)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:32:27 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1910)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:32:48 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"R", "year"=>"3", "recommend"=>"yes", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"R", "year"=>"3", "recommend"=>"yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 967)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:34:12 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3778)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:34:12 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1064)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:34:19 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"dsaf", "rating"=>"asdf", "year"=>"112", "recommend"=>"asdf", "id"=>nil, "movie"=>{"title"=>"dsaf", "rating"=>"asdf", "year"=>"112", "recommend"=>"asdf", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 957)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/movies" for ::1 at 2019-09-06 15:34:52 -0400
+Processing by MoviesController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 518)
+
+
+Started GET "/" for ::1 at 2019-09-06 15:35:05 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3652)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:35:06 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 526)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:35:23 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"Test", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil, "movie"=>{"title"=>"Test", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 963)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:36:15 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 3620ms (Views: 3618.3ms | ActiveRecord: 0.0ms | Allocations: 4912)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:36:18 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 526)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:36:28 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"Test", "rating"=>"R", "year"=>"200", "recommend"=>"Yes", "id"=>nil, "movie"=>{"title"=>"Test", "rating"=>"R", "year"=>"200", "recommend"=>"Yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 960)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:37:02 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 3687ms (Views: 3686.0ms | ActiveRecord: 0.0ms | Allocations: 4912)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:37:06 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 807)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:37:15 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"Test", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil, "movie"=>{"title"=>"Test", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 968)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:41:48 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2619ms (Views: 2618.8ms | ActiveRecord: 0.0ms | Allocations: 3947)
+
+
+Started GET "/" for ::1 at 2019-09-06 15:44:05 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2742ms (Views: 2741.5ms | ActiveRecord: 0.0ms | Allocations: 4914)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:44:07 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:44:20 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"r", "year"=>"200", "recommend"=>"yes", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"r", "year"=>"200", "recommend"=>"yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 966)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:45:26 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2910ms (Views: 2909.6ms | ActiveRecord: 0.0ms | Allocations: 4912)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:45:29 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 525)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:45:38 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"Yes", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil, "movie"=>{"title"=>"Yes", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 965)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'

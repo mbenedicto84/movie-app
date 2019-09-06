@@ -6,6 +6,25 @@ class Movies
         DB = PG.connect(host: "localhost", port: 5432, dbname: 'movies_development',:user => "pguser", :password => "pguser")
     end
 
+
+    DB.prepare("create_movies",
+  <<-SQL
+    INSERT INTO movies (title, rating, year,recommend)
+        VALUES ($1, $2, $3, $4)
+    RETURNING id, title, rating, year, recommend;
+  SQL
+)
+
+# update post
+DB.prepare("update_movies",
+  <<-SQL
+    UPDATE movies
+    SET title = $2, Rating = $3, year = $4, recommend = $5
+    WHERE id = $1
+    RETURNING id, title, rating, year,recommend;
+  SQL
+)
+
   # ===============================
   # PREPARED STATEMENTS
   # ===============================
@@ -42,9 +61,6 @@ class Movies
           "rating" => results.first["rating"],
           "year" => results.first["year"],
               "recommend" => results.first["recommend"]
-
-
-
       }
 
     else
@@ -60,9 +76,9 @@ class Movies
     return {
       "id" => results.first["id"].to_i,
       "title" => results.first["title"],
-        "rating" => results.first["rating"],
-        "year" => results.first["year"],
-            "recommend" => results.first["recommend"]
+      "rating" => results.first["rating"],
+      "year" => results.first["year"],
+      "recommend" => results.first["recommend"]
 
     }
   end

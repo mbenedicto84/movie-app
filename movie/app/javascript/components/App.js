@@ -32,10 +32,10 @@ class App extends React.Component {
       // declare an empty variable
       let pageTitle = ''
       let formInputs = {
-        title:null,
-        rating:null,
-        year:null,
-        recommend:null,
+        title:'',
+        rating:'',
+        year:'',
+        recommend:'',
         id:null
       }
       // decide the pageTitle based on the view

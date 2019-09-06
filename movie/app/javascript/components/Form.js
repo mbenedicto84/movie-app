@@ -70,11 +70,11 @@ class Form extends React.Component {
         </label>
         <label>
             Year
-          <input placeholder="Year" type="number" id="year" value={this.state.year} onChange={this.handleChange}/>
+          <input type="number"  placeholder="Year" id="year" value={this.state.year} onChange={this.handleChange}/>
         </label>
         <label>
         Recommend
-          <input type="text" placeholder="Rating" id="recommend" value={this.state.recommend} onChange={this.handleChange}/>
+          <input type="text" placeholder="recommend" id="recommend" value={this.state.recommend} onChange={this.handleChange}/>
         </label>
         <input type="submit" value="New Movie"/>
       </form>

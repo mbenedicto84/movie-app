@@ -44,18 +44,18 @@ handleCreate = (createData) => {
       'Content-Type': 'application/json'
     }
   })
-    .then(createdPost => {
-      return createdPost.json()
-    })
-    .then(jsonedPost => {
-      // change to home view
- this.props.handleView('home')
-      this.setState(prevState => {
-  prevState.movies.push(jsonedPost)
-  return { movies: prevState.movies }
+  .then(createdPost => {
+    return createdPost.json()
+  })
+  .then(jsonedPost => {
+    // change to home view
+this.props.handleView('home')
+    this.setState(prevState => {
+prevState.posts.push(jsonedPost)
+return { posts: prevState.posts }
 })
-    })
-  .catch(err => console.log(err))
+  })
+.catch(err => console.log(err))
 }
 
 //update post
