@@ -6828,3 +6828,123 @@ Processing by MoviesController#index as */*
 Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 745)
 
 
+Started GET "/" for ::1 at 2019-09-06 18:55:38 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4466)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:55:38 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 744)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:55:56 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 4875)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:55:56 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 741)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:56:03 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 4465)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:56:03 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 742)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:56:13 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3592)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:56:13 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 738)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:57:19 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4472)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:57:19 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 750)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:57:33 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4924)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:57:33 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 741)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:57:59 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4919)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:57:59 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 743)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:58:07 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3641)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:58:08 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 744)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:58:15 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 5304)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:58:15 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 741)
+
+
+Started GET "/" for ::1 at 2019-09-06 18:59:33 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 4873)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 18:59:33 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 739)
+
+
