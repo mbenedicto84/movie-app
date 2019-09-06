@@ -59,25 +59,23 @@ class Form extends React.Component {
   // ==============
   render () {
     return (
+      <div className="inputs">
       <form onSubmit={this.handleSubmit}>
         <label>
-        Title
           <input type="text" placeholder="Title" id="title" value={this.state.title} onChange={this.handleChange}/>
         </label>
         <label>
-        Rating
           <input type="text" placeholder="Rating" id="rating" value={this.state.rating} onChange={this.handleChange}/>
         </label>
         <label>
-            Year
           <input type="text"  placeholder="Year" id="year" value={this.state.year} onChange={this.handleChange}/>
         </label>
         <label>
-        Recommend
-          <input type="text" placeholder="recommend" id="recommend" value={this.state.recommend} onChange={this.handleChange}/>
+          <input type="text" placeholder="Recommend" id="recommend" value={this.state.recommend} onChange={this.handleChange}/>
         </label>
         <input type="submit" value="New Movie"/>
       </form>
+      </div>
     )
   }
 }

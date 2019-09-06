@@ -30,8 +30,8 @@ class Movie extends React.Component {
         </div>
         <div className="movie-options">
          <ul>
-          <button onClick={() => {this.props.handleView('editPost', this.props.postData)}}>edit post</button>
-           <button onClick={() => {this.props.handleDelete(this.props.postData.id)}}>delete post</button>
+          <button onClick={() => {this.props.handleView('editPost', this.props.postData)}}>Edit Movie</button>
+           <button onClick={() => {this.props.handleDelete(this.props.postData.id)}}>Delete Movie</button>
          </ul>
        </div>
       </article>

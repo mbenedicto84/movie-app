@@ -6,6 +6,7 @@ import React from 'react'
 import Main from './Main.js'
 import Aside from './Aside.js'
 import Header from './Header.js'
+import Footer from './Footer.js'
 // =============================
 // COMPONENT CLASS
 // =============================
@@ -85,6 +86,7 @@ class App extends React.Component {
           formInputs={this.state.formInputs}
             />
         </div>
+        <Footer/>
       </div>
     )
   }
