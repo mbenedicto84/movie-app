@@ -585,3 +585,207 @@ Processing by SiteController#index as HTML
 Completed 200 OK in 6660ms (Views: 6659.2ms | ActiveRecord: 0.0ms | Allocations: 1268574)
 
 
+Started GET "/" for ::1 at 2019-09-06 09:55:11 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2290ms (Views: 2289.6ms | ActiveRecord: 0.0ms | Allocations: 4805)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:20:20 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2409ms (Views: 2408.9ms | ActiveRecord: 0.0ms | Allocations: 4865)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:22:44 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2253ms (Views: 2252.3ms | ActiveRecord: 0.0ms | Allocations: 4852)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:25:35 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2244ms (Views: 2243.4ms | ActiveRecord: 0.0ms | Allocations: 4812)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:34:01 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2456ms (Views: 2455.3ms | ActiveRecord: 0.0ms | Allocations: 4821)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:34:41 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2441ms (Views: 2440.6ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:39:11 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2133ms (Views: 2133.0ms | ActiveRecord: 0.0ms | Allocations: 3913)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:39:53 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2113ms (Views: 2113.0ms | ActiveRecord: 0.0ms | Allocations: 3911)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:41:52 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2254ms (Views: 2253.9ms | ActiveRecord: 0.0ms | Allocations: 3915)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:42:22 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2190ms (Views: 2189.9ms | ActiveRecord: 0.0ms | Allocations: 3911)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:43:33 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2260ms (Views: 2259.8ms | ActiveRecord: 0.0ms | Allocations: 3913)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:44:57 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2237ms (Views: 2236.2ms | ActiveRecord: 0.0ms | Allocations: 3912)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:45:19 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2267ms (Views: 2266.1ms | ActiveRecord: 0.0ms | Allocations: 3911)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:45:39 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2262ms (Views: 2261.6ms | ActiveRecord: 0.0ms | Allocations: 3916)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:46:01 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 2194ms (Views: 2193.1ms | ActiveRecord: 0.0ms | Allocations: 3911)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:46:59 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2164ms (Views: 2163.8ms | ActiveRecord: 0.0ms | Allocations: 4865)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:47:57 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2303ms (Views: 2302.3ms | ActiveRecord: 0.0ms | Allocations: 4860)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:49:13 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2266ms (Views: 2265.2ms | ActiveRecord: 0.0ms | Allocations: 4858)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:49:53 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2396ms (Views: 2396.0ms | ActiveRecord: 0.0ms | Allocations: 4860)
+
+
+Started GET "/" for ::1 at 2019-09-06 10:53:05 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3746)
+
+
+Started GET "/" for ::1 at 2019-09-06 11:02:15 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3748)
+
+
+Started GET "/" for ::1 at 2019-09-06 11:02:33 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2164ms (Views: 2163.6ms | ActiveRecord: 0.0ms | Allocations: 4860)
+
+

@@ -1,4 +1,4 @@
-class Fruit
+class Movies
     if(ENV['DATABASE_URL'])
         uri = URI.parse(ENV['DATABASE_URL'])
         DB = PG.connect(uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password)
@@ -12,9 +12,9 @@ class Fruit
   # create movies
   DB.prepare("create_movies",
     <<-SQL
-      INSERT INTO movies (name, image, body)
+      INSERT INTO movies (title, rating, year, recommend)
       VALUES ($1, $2, $3)
-      RETURNING id, name, image, body;
+      RETURNING id, title, rating, year, recommend;
     SQL
   )
 
@@ -22,9 +22,9 @@ class Fruit
   DB.prepare("update_movies",
     <<-SQL
       UPDATE movies
-      SET name = $2, image = $3, body = $4
+      SET title = $2, rating = $3, year = $4, recommend = $5
       WHERE id = $1
-      RETURNING id, name, image, body;
+      RETURNING id, title, rating, year, recommend;
     SQL
   )
 
@@ -62,9 +62,10 @@ class Fruit
 
 
   def self.create(opts)
-    results = DB.exec_prepared("create_movies", [opts["name"], opts["image"], opts["body"]])
+    results = DB.exec_prepared("create_movies", [opts["title"], opts["rating"], opts["year"],opts["recommend"]])
     return {
       "id" => results.first["id"].to_i,
+        "year" => results.first["year"].to_i
 
     }
   end
@@ -75,9 +76,10 @@ class Fruit
   end
 
   def self.update(id, opts)
-    results = DB.exec_prepared("update_movies", [id, opts["name"], opts["image"], opts["body"]])
+    results = DB.exec_prepared("update_movies", [id, opts["title"], opts["rating"], opts["year"],opts["recommend"]])
     return {
       "id" => results.first["id"].to_i,
+      "year" => results.first["year"].to_i
 
     }
   end
