@@ -20,13 +20,13 @@ class Movie extends React.Component {
         <h1> {this.props.postData.title}</h1>
         </div>
         <div className="movie-rating">
-        {this.props.postData.rating}
+        <h2>{this.props.postData.rating}</h2>
         </div>
         <div className="movie-year">
-        {this.props.postData.year}
+        <h2>{this.props.postData.year}</h2>
         </div>
         <div className="movie-recommend">
-        {this.props.postData.recommend}
+        <h2>{this.props.postData.recommend}</h2>
         </div>
         <div className="movie-options">
          <ul>

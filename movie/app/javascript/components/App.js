@@ -5,6 +5,7 @@
 import React from 'react'
 import Main from './Main.js'
 import Aside from './Aside.js'
+import Header from './Header.js'
 // =============================
 // COMPONENT CLASS
 // =============================
@@ -34,7 +35,7 @@ class App extends React.Component {
       let formInputs = {
         title:'',
         rating:'',
-        year:'',
+        year: '',
         recommend:'',
         id:null
       }
@@ -74,7 +75,7 @@ class App extends React.Component {
   render () {
     return (
       <div className="large-container">
-
+        <Header/>
         <div className="main-container">
           <Aside handleView={this.handleView}/>
           <Main

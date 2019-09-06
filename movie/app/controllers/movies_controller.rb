@@ -13,7 +13,7 @@ class MoviesController < ApplicationController
 
   # create
   def create
-      render json: Movies.create(params["movies"])
+      render json: Movies.create(params["movie"])
   end
 
   # delete
@@ -23,6 +23,6 @@ class MoviesController < ApplicationController
 
   # update
   def update
-    render json: Movies.update(params["id"], params["Movies"])
+    render json: Movies.update(params["id"], params["movie"])
   end
 end

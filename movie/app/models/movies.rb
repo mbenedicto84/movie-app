@@ -42,6 +42,7 @@ DB.prepare("update_movies",
           "id" => result["id"].to_i,
            "title" => result["title"],
             "rating" => result["rating"],
+            "year" => result["year"],
              "recommend" => result["recommend"],
 
 

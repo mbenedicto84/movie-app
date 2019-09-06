@@ -70,7 +70,7 @@ class Form extends React.Component {
         </label>
         <label>
             Year
-          <input type="number"  placeholder="Year" id="year" value={this.state.year} onChange={this.handleChange}/>
+          <input type="text"  placeholder="Year" id="year" value={this.state.year} onChange={this.handleChange}/>
         </label>
         <label>
         Recommend

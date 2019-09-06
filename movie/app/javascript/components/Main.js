@@ -51,8 +51,8 @@ handleCreate = (createData) => {
     // change to home view
 this.props.handleView('home')
     this.setState(prevState => {
-prevState.posts.push(jsonedPost)
-return { posts: prevState.posts }
+prevState.movies.push(jsonedPost)
+return { movies: prevState.movies }
 })
   })
 .catch(err => console.log(err))

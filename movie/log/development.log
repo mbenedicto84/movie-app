@@ -4000,3 +4000,1256 @@ NoMethodError (undefined method `[]' for nil:NilClass):
   
 app/models/movies.rb:75:in `create'
 app/controllers/movies_controller.rb:16:in `create'
+Started POST "/movies" for ::1 at 2019-09-06 15:48:35 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"Yes", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil, "movie"=>{"title"=>"Yes", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 965)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:50:55 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 201)
+Completed 200 OK in 674ms (Views: 668.7ms | ActiveRecord: 0.0ms | Allocations: 1260290)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:50:56 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1642)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 15:51:06 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"yes", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil, "movie"=>{"title"=>"yes", "rating"=>"R", "year"=>"2000", "recommend"=>"Yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 958)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 15:56:23 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2884ms (Views: 2883.2ms | ActiveRecord: 0.0ms | Allocations: 4965)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 15:56:26 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 523)
+
+
+Started POST "/api/movies" for ::1 at 2019-09-06 15:56:35 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/api/movies"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-06 16:04:23 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3660)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:04:23 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 526)
+
+
+Started POST "/api/movies" for ::1 at 2019-09-06 16:04:31 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/api/movies"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-06 16:08:04 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2741ms (Views: 2740.1ms | ActiveRecord: 0.0ms | Allocations: 4918)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:08:23 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2717ms (Views: 2716.6ms | ActiveRecord: 0.0ms | Allocations: 4904)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:08:26 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 524)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 16:08:38 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"R", "year"=>"2", "recommend"=>"e", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"R", "year"=>"2", "recommend"=>"e", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 968)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 16:10:03 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3653)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:10:03 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 529)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 16:10:13 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"r", "year"=>"7", "recommend"=>"r", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"r", "year"=>"7", "recommend"=>"r", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 966)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/movies/5" for ::1 at 2019-09-06 16:10:53 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 385)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:11:00 -0400
+Processing by MoviesController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 526)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:12:28 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3651)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:12:28 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1010)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:14:01 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2652ms (Views: 2651.2ms | ActiveRecord: 0.0ms | Allocations: 4933)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:14:04 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1014)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:14:18 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2793ms (Views: 2792.7ms | ActiveRecord: 0.0ms | Allocations: 4936)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:14:42 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2753ms (Views: 2752.1ms | ActiveRecord: 0.0ms | Allocations: 4930)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:14:45 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 727)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:18:52 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 201)
+Completed 200 OK in 686ms (Views: 682.5ms | ActiveRecord: 0.0ms | Allocations: 1260304)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:18:53 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1818)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 16:19:05 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"R", "year"=>"1300", "recommend"=>"Yes", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"R", "year"=>"1300", "recommend"=>"Yes", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 961)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 16:22:49 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Compiling…
+Started POST "/movies" for ::1 at 2019-09-06 16:22:52 -0400
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2853ms (Views: 2852.3ms | ActiveRecord: 0.0ms | Allocations: 6020)
+
+
+  
+ActionController::RoutingError (No route matches [POST] "/movies"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movies" for ::1 at 2019-09-06 16:22:53 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 2190)
+
+
+Started POST "/api/movies" for ::1 at 2019-09-06 16:23:07 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"R", "year"=>"200", "recommend"=>"rest", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"R", "year"=>"200", "recommend"=>"rest", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 969)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 16:23:09 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3789)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:23:10 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 736)
+
+
+Started POST "/api/movies" for ::1 at 2019-09-06 16:23:22 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"etset", "year"=>"200", "recommend"=>"test", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"etset", "year"=>"200", "recommend"=>"test", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 965)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started PUT "/movies/4" for ::1 at 2019-09-06 16:24:12 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"title"=>"Jupiter Ascending", "rating"=>"PG-13", "recommend"=>"yes", "id"=>"4", "movie"=>{"title"=>"Jupiter Ascending", "rating"=>"PG-13", "recommend"=>"yes", "id"=>"4"}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1157)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:92:in `update'
+app/controllers/movies_controller.rb:26:in `update'
+Started GET "/movies" for ::1 at 2019-09-06 16:24:12 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 735)
+
+
+Started PUT "/movies/4" for ::1 at 2019-09-06 16:24:21 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"title"=>"Jupiter Ascending", "rating"=>"PG-13", "recommend"=>"No", "id"=>"4", "movie"=>{"title"=>"Jupiter Ascending", "rating"=>"PG-13", "recommend"=>"No", "id"=>"4"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 965)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:92:in `update'
+app/controllers/movies_controller.rb:26:in `update'
+Started GET "/movies" for ::1 at 2019-09-06 16:24:21 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 730)
+
+
+Started DELETE "/movies/10" for ::1 at 2019-09-06 16:24:28 -0400
+Processing by MoviesController#delete as HTML
+  Parameters: {"id"=>"10", "movie"=>{}}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 274)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:32:34 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2529ms (Views: 2528.6ms | ActiveRecord: 0.0ms | Allocations: 5066)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:32:37 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2095)
+
+
+  
+SyntaxError (/home/chico/movie-app/movie/app/models/movies.rb:75: syntax error, unexpected ')', expecting ']'
+...opts["year"],opts["recommend"])
+...                              ^
+/home/chico/movie-app/movie/app/models/movies.rb:92: syntax error, unexpected ')', expecting ']'
+...opts["year"],opts["recommend"])
+...                              ^):
+  
+app/models/movies.rb:75: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:92: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:75: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:92: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:75: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:92: syntax error, unexpected ')', expecting ']'
+app/controllers/movies_controller.rb:6:in `index'
+Started POST "/movies" for ::1 at 2019-09-06 16:32:52 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"asd", "rating"=>"asdf", "year"=>"2020", "recommend"=>"dasfd", "id"=>nil, "movie"=>{"title"=>"asd", "rating"=>"asdf", "year"=>"2020", "recommend"=>"dasfd", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1595)
+
+
+  
+SyntaxError (/home/chico/movie-app/movie/app/models/movies.rb:75: syntax error, unexpected ')', expecting ']'
+...opts["year"],opts["recommend"])
+...                              ^
+/home/chico/movie-app/movie/app/models/movies.rb:92: syntax error, unexpected ')', expecting ']'
+...opts["year"],opts["recommend"])
+...                              ^):
+  
+app/models/movies.rb:75: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:92: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:75: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:92: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:75: syntax error, unexpected ')', expecting ']'
+app/models/movies.rb:92: syntax error, unexpected ')', expecting ']'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 16:33:21 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3789)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:33:21 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 2051)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:34:48 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3784)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:34:48 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 2068)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 16:35:03 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"asdf", "rating"=>"R", "year"=>"200", "recommend"=>"resr", "id"=>nil, "movie"=>{"title"=>"asdf", "rating"=>"R", "year"=>"200", "recommend"=>"resr", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 966)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 16:37:30 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2814ms (Views: 2813.9ms | ActiveRecord: 0.0ms | Allocations: 4938)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:38:15 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3665)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:38:29 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3671)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:38:30 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3662)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:38:38 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2558ms (Views: 2557.7ms | ActiveRecord: 0.0ms | Allocations: 4929)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:38:40 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 658)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:38:54 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2843ms (Views: 2842.0ms | ActiveRecord: 0.0ms | Allocations: 4938)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:39:03 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2459ms (Views: 2458.9ms | ActiveRecord: 0.0ms | Allocations: 4929)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:39:06 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 950)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:39:22 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2542ms (Views: 2541.1ms | ActiveRecord: 0.0ms | Allocations: 4938)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:39:39 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2799ms (Views: 2798.9ms | ActiveRecord: 0.0ms | Allocations: 4937)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:39:41 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 672)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:39:58 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3663)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:39:58 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 659)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 16:40:13 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"sfdg", "rating"=>"sfg", "year"=>"3", "recommend"=>"adf", "id"=>nil, "movie"=>{"title"=>"sfdg", "rating"=>"sfg", "year"=>"3", "recommend"=>"adf", "id"=>nil}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 963)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/models/movies.rb:75:in `create'
+app/controllers/movies_controller.rb:16:in `create'
+Started GET "/" for ::1 at 2019-09-06 16:45:23 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3784)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:45:23 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1473)
+
+
+Started POST "/movies" for ::1 at 2019-09-06 16:45:37 -0400
+Processing by MoviesController#create as HTML
+  Parameters: {"title"=>"test", "rating"=>"r", "year"=>"20000", "recommend"=>"yes", "id"=>nil, "movie"=>{"title"=>"test", "rating"=>"r", "year"=>"20000", "recommend"=>"yes", "id"=>nil}}
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 406)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:47:45 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3784)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:47:45 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 960)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:47:48 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3667)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:47:49 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 733)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:53:15 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:53:15 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 724)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:53:52 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2431ms (Views: 2430.4ms | ActiveRecord: 0.0ms | Allocations: 4936)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:53:55 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 725)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:53:56 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3668)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:53:56 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 733)
+
+
+Started GET "/movies/1" for ::1 at 2019-09-06 16:54:05 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 303)
+
+
+Started GET "/movies/" for ::1 at 2019-09-06 16:54:08 -0400
+Processing by MoviesController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 729)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:54:14 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3662)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:54:14 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1006)
+
+
+Started DELETE "/movies/11" for ::1 at 2019-09-06 16:54:17 -0400
+Processing by MoviesController#delete as HTML
+  Parameters: {"id"=>"11", "movie"=>{}}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/movies/" for ::1 at 2019-09-06 16:54:23 -0400
+Processing by MoviesController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 655)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:54:46 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3668)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:54:46 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 660)
+
+
+Started DELETE "/movies/9" for ::1 at 2019-09-06 16:54:49 -0400
+Processing by MoviesController#delete as HTML
+  Parameters: {"id"=>"9", "movie"=>{}}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 286)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:57:17 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 3166ms (Views: 3165.1ms | ActiveRecord: 0.0ms | Allocations: 4935)
+
+
+Started GET "/" for ::1 at 2019-09-06 16:57:38 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 3405ms (Views: 3404.2ms | ActiveRecord: 0.0ms | Allocations: 4935)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 16:57:42 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started DELETE "/movies/8" for ::1 at 2019-09-06 16:57:45 -0400
+Processing by MoviesController#delete as HTML
+  Parameters: {"id"=>"8", "movie"=>{}}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 276)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:00:14 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 3160ms (Views: 3159.7ms | ActiveRecord: 0.0ms | Allocations: 4934)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:00:17 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 525)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:00:32 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 3294ms (Views: 3292.8ms | ActiveRecord: 0.0ms | Allocations: 4932)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:00:35 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 526)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:00:51 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 3198ms (Views: 3197.2ms | ActiveRecord: 0.0ms | Allocations: 4937)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:00:55 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 525)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:06:05 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2688ms (Views: 2687.1ms | ActiveRecord: 0.0ms | Allocations: 4933)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:06:07 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1733)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:06:20 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2559ms (Views: 2558.8ms | ActiveRecord: 0.0ms | Allocations: 4928)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:06:23 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 522)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:06:34 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2538ms (Views: 2537.7ms | ActiveRecord: 0.0ms | Allocations: 4924)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:06:37 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 805)
+
+
+Started PUT "/movies/4" for ::1 at 2019-09-06 17:06:47 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"title"=>"Jupiter Ascending", "rating"=>"PG-13", "year"=>"3", "recommend"=>"No", "id"=>"4", "movie"=>{"title"=>"Jupiter Ascending", "rating"=>"PG-13", "year"=>"3", "recommend"=>"No", "id"=>"4"}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 410)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:06:47 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 528)
+
+
+Started PUT "/movies/4" for ::1 at 2019-09-06 17:07:05 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"title"=>"Jupiter Ascending", "rating"=>"PG-13", "year"=>"4", "recommend"=>"No", "id"=>"4", "movie"=>{"title"=>"Jupiter Ascending", "rating"=>"PG-13", "year"=>"4", "recommend"=>"No", "id"=>"4"}}
+Completed 200 OK in 63ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 407)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:07:05 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 527)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:07:45 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3660)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:07:45 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 528)
+
+
+Started DELETE "/movies/5" for ::1 at 2019-09-06 17:08:30 -0400
+Processing by MoviesController#delete as HTML
+  Parameters: {"id"=>"5", "movie"=>{}}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 279)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:10:47 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3663)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:10:47 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1024)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:10:50 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:10:50 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 729)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:12:39 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3787)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:12:39 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2297)
+
+
+  
+SyntaxError (/home/chico/movie-app/movie/app/models/movies.rb:63: syntax error, unexpected tSTRING_BEG, expecting '}'
+              "recommend" => results.first["...
+              ^
+/home/chico/movie-app/movie/app/models/movies.rb:63: syntax error, unexpected =>, expecting end
+              "recommend" => results.first["recommend"]
+                          ^~
+/home/chico/movie-app/movie/app/models/movies.rb:64: syntax error, unexpected '}', expecting end
+      }
+      ^
+/home/chico/movie-app/movie/app/models/movies.rb:81: syntax error, unexpected tSTRING_BEG, expecting '}'
+      "recommend" => results.first["...
+      ^
+/home/chico/movie-app/movie/app/models/movies.rb:81: syntax error, unexpected =>, expecting end
+      "recommend" => results.first["recommend"]
+                  ^~
+/home/chico/movie-app/movie/app/models/movies.rb:83: syntax error, unexpected '}', expecting end
+    }
+    ^
+/home/chico/movie-app/movie/app/models/movies.rb:103: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/movies.rb:63: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:63: syntax error, unexpected =>, expecting end
+app/models/movies.rb:64: syntax error, unexpected '}', expecting end
+app/models/movies.rb:81: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:81: syntax error, unexpected =>, expecting end
+app/models/movies.rb:83: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected end-of-input, expecting end
+app/models/movies.rb:63: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:63: syntax error, unexpected =>, expecting end
+app/models/movies.rb:64: syntax error, unexpected '}', expecting end
+app/models/movies.rb:81: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:81: syntax error, unexpected =>, expecting end
+app/models/movies.rb:83: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected end-of-input, expecting end
+app/models/movies.rb:63: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:63: syntax error, unexpected =>, expecting end
+app/models/movies.rb:64: syntax error, unexpected '}', expecting end
+app/models/movies.rb:81: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:81: syntax error, unexpected =>, expecting end
+app/models/movies.rb:83: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected end-of-input, expecting end
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 17:12:51 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3664)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:12:51 -0400
+Processing by MoviesController#index as */*
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 1589)
+
+
+  
+SyntaxError (/home/chico/movie-app/movie/app/models/movies.rb:63: syntax error, unexpected tSTRING_BEG, expecting '}'
+              "recommend" => results.first["...
+              ^
+/home/chico/movie-app/movie/app/models/movies.rb:63: syntax error, unexpected =>, expecting end
+              "recommend" => results.first["recommend"]
+                          ^~
+/home/chico/movie-app/movie/app/models/movies.rb:64: syntax error, unexpected '}', expecting end
+      }
+      ^
+/home/chico/movie-app/movie/app/models/movies.rb:81: syntax error, unexpected tSTRING_BEG, expecting '}'
+      "recommend" => results.first["...
+      ^
+/home/chico/movie-app/movie/app/models/movies.rb:81: syntax error, unexpected =>, expecting end
+      "recommend" => results.first["recommend"]
+                  ^~
+/home/chico/movie-app/movie/app/models/movies.rb:83: syntax error, unexpected '}', expecting end
+    }
+    ^
+/home/chico/movie-app/movie/app/models/movies.rb:103: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/movies.rb:63: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:63: syntax error, unexpected =>, expecting end
+app/models/movies.rb:64: syntax error, unexpected '}', expecting end
+app/models/movies.rb:81: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:81: syntax error, unexpected =>, expecting end
+app/models/movies.rb:83: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected end-of-input, expecting end
+app/models/movies.rb:63: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:63: syntax error, unexpected =>, expecting end
+app/models/movies.rb:64: syntax error, unexpected '}', expecting end
+app/models/movies.rb:81: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:81: syntax error, unexpected =>, expecting end
+app/models/movies.rb:83: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected end-of-input, expecting end
+app/models/movies.rb:63: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:63: syntax error, unexpected =>, expecting end
+app/models/movies.rb:64: syntax error, unexpected '}', expecting end
+app/models/movies.rb:81: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/movies.rb:81: syntax error, unexpected =>, expecting end
+app/models/movies.rb:83: syntax error, unexpected '}', expecting end
+app/models/movies.rb:103: syntax error, unexpected end-of-input, expecting end
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-09-06 17:13:24 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3784)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:13:24 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1839)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:13:56 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 201)
+Completed 200 OK in 659ms (Views: 655.0ms | ActiveRecord: 0.0ms | Allocations: 1260293)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:13:57 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 978)
+
+
+Started PUT "/movies/1" for ::1 at 2019-09-06 17:14:06 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"title"=>"Avengers", "rating"=>"PG-13", "year"=>"5", "recommend"=>"Yes", "id"=>"1", "movie"=>{"title"=>"Avengers", "rating"=>"PG-13", "year"=>"5", "recommend"=>"Yes", "id"=>"1"}}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 413)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:14:06 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 730)
+
+
+Started PUT "/movies/6" for ::1 at 2019-09-06 17:14:14 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"title"=>"Hackers", "rating"=>"f", "recommend"=>"Yes", "id"=>"6", "movie"=>{"title"=>"Hackers", "rating"=>"f", "recommend"=>"Yes", "id"=>"6"}}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 402)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:14:14 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 728)
+
+
+Started PUT "/movies/7" for ::1 at 2019-09-06 17:14:34 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"title"=>"Men In Black", "rating"=>"PG-13", "recommend"=>"NO", "id"=>"7", "movie"=>{"title"=>"Men In Black", "rating"=>"PG-13", "recommend"=>"NO", "id"=>"7"}}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 403)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:14:34 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 727)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:15:39 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2592ms (Views: 2591.1ms | ActiveRecord: 0.0ms | Allocations: 4965)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:15:42 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 725)
+
+
+Started PUT "/movies/1" for ::1 at 2019-09-06 17:15:55 -0400
+Processing by MoviesController#update as HTML
+  Parameters: {"title"=>"Avengers", "rating"=>"PG-13", "year"=>"2000", "recommend"=>"Yes", "id"=>"1", "movie"=>{"title"=>"Avengers", "rating"=>"PG-13", "year"=>"2000", "recommend"=>"Yes", "id"=>"1"}}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 412)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:15:55 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 728)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:17:57 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3659)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:17:57 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 727)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:18:39 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2718ms (Views: 2717.0ms | ActiveRecord: 0.0ms | Allocations: 4936)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:18:42 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 728)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:18:50 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3670)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:18:50 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1121)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:19:51 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3780)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:19:52 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1842)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:20:13 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3664)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:20:13 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1395)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:22:56 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2743ms (Views: 2743.0ms | ActiveRecord: 0.0ms | Allocations: 4937)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:22:59 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1011)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:23:17 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3666)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:23:17 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 726)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:23:38 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3664)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:23:38 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 725)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:25:00 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2880ms (Views: 2879.9ms | ActiveRecord: 0.0ms | Allocations: 4938)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:25:03 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1013)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:25:37 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3662)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:25:37 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 983)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:25:49 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2736ms (Views: 2735.8ms | ActiveRecord: 0.0ms | Allocations: 4933)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:25:52 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1131)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:28:10 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2821ms (Views: 2820.3ms | ActiveRecord: 0.0ms | Allocations: 4931)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:28:13 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 723)
+
+
+Started GET "/" for ::1 at 2019-09-06 17:29:52 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3784)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 17:29:52 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 12ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 2212)
+
+
