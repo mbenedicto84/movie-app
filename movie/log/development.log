@@ -7527,3 +7527,29 @@ Processing by MoviesController#index as */*
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 942)
 
 
+Started GET "/" for ::1 at 2019-09-06 20:09:52 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4909)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 20:09:52 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 949)
+
+
+Started GET "/" for ::1 at 2019-09-06 20:11:10 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/chico/movie-app/movie/public/packs
+Completed 200 OK in 2442ms (Views: 2441.4ms | ActiveRecord: 0.0ms | Allocations: 4870)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 20:11:13 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 947)
+
+

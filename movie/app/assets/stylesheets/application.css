@@ -87,8 +87,6 @@ Footer{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  display: flex;
-flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 

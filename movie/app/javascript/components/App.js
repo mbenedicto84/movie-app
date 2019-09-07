@@ -48,7 +48,7 @@ class App extends React.Component {
           pageTitle = ''
           break
         case 'addPost':
-          pageTitle = 'Add A New Movie!'
+          pageTitle = ''
           break
         case 'editPost':
           pageTitle = 'Change Some Facts!'
