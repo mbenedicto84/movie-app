@@ -7359,3 +7359,15 @@ Processing by MoviesController#index as */*
 Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 947)
 
 
+Started GET "/" for ::1 at 2019-09-06 20:00:41 -0400
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 7584)
+
+
+Started GET "/movies" for ::1 at 2019-09-06 20:00:41 -0400
+Processing by MoviesController#index as */*
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 943)
+
+
