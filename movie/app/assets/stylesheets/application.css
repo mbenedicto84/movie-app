@@ -1,5 +1,4 @@
 
-
 body{
   background-color: : whitesmoke;
 font-family: 'Raleway', sans-serif;
@@ -97,9 +96,9 @@ Footer{
   height: 75px;
   width: 100%;
   background-color: black;
-  padding: 20px;
   color: white;
   text-align: center;
+  padding-top: 20px;
 }
 .menu{
   text-align: center;
@@ -120,6 +119,14 @@ Footer{
   justify-content: center;
   width: 100%;
 
+}
+
+.omdb{
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  background-color: rgba(255,255,255, 0.7);
 }
 
 .items{
