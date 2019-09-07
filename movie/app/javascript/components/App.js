@@ -51,7 +51,7 @@ class App extends React.Component {
           pageTitle = ''
           break
         case 'editPost':
-          pageTitle = 'Change Some Facts!'
+          pageTitle = ''
           formInputs = {
             title: postData.title,
             rating: postData.rating,
