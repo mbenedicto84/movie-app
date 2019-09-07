@@ -56,6 +56,36 @@ input{
 font-family: 'Raleway', sans-serif;
   margin: 0 auto;
 }
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+   background-color: rgba(255,255,255, 0.7);
+   margin: 30px;
+   width: 100%;
+   margin: 10px auto;
+}
+
+input#title{
+
+   margin: 10px auto;
+
+}
+input#rating{
+
+ margin: 10px auto;
+}
+input#year{
+   margin: 10px auto;
+}
+input#poster{
+ margin: 10px auto;
+}
+input#recommend{
+   margin: 10px auto;
+}
 
 
 h1{
@@ -82,7 +112,7 @@ Footer{
 
 
 .main-container {
-  background-image: url('https://www.jakpost.travel/imgfiles/full/13/136636/lilo-and-stitch-wallpaper.jpg');
+  background-image: url('https://i.pinimg.com/originals/68/26/59/6826599ce885f400c9707b68801bcd8f.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
