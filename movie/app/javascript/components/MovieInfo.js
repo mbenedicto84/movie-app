@@ -8,6 +8,7 @@ class MovieInfo extends Component {
         <h2>Year: {this.props.movie.Year}</h2>
         <img src={this.props.movie.Poster} alt={this.props.movie.Title}/>
         <h3>Genre: {this.props.movie.Genre}</h3>
+        <h3>Genre: {this.props.movie.Rated}</h3>
         <h4>Plot: {this.props.movie.Plot}</h4>
       </div>
     )
