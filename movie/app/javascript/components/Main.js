@@ -5,6 +5,7 @@
 import React from 'react'
 import Form from './Form.js'
 import Movie from './Movie.js'
+import MovieInfo from './MovieInfo.js'
 // components
 
 
@@ -20,19 +21,46 @@ class Main extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      baseURL: 'http://www.omdbapi.com/?',
+  apikey: 'apikey=' + '98e3fb1f',
+  query: '&t=',
+  movieTitle: '',
+  searchURL: '',
       movies: []
     }
+    this.handleSubmit = this.handleSubmit.bind(this)
+this.handleChange = this.handleChange.bind(this)
+  }
+
+  handleChange (event) {
+    this.setState({ [event.target.id]: event.target.value })
+  }
+  handleSubmit (event) {
+    event.preventDefault()
+    this.setState({
+      searchURL: this.state.baseURL + this.state.apikey + this.state.query + this.state.movieTitle
+    }, () => {
+      fetch(this.state.searchURL)
+        .then(response => {
+          return response.json()
+        }).then(json => this.setState({
+          movie: json,
+          movieTitle: ''
+        }),
+        err => console.log(err))
+    })
   }
 
 
-  fetchMovies = () => {
-    fetch('/movies')
-      .then(data => data.json())
-      .then(jData => {
-        this.setState({movies: jData})
-      })
-  }
 
+
+fetchMovies = () => {
+  fetch('/movies')
+    .then(data => data.json())
+    .then(jData => {
+      this.setState({movies: jData})
+    })
+}
 
 //Create New post
 handleCreate = (createData) => {
@@ -104,8 +132,34 @@ handleDelete = (id) => {
   // ==============
   render () {
     return (
+
       <main>
-      <h1>{this.props.view.pageTitle}</h1>
+
+      <React.Fragment>
+    <h1>{this.props.view.pageTitle}</h1>
+
+    <form onSubmit={this.handleSubmit}>
+      <label htmlFor='movieTitle'>Title</label>
+      <input
+        id='movieTitle'
+        type='text'
+        value={this.state.movieTitle}
+        onChange={this.handleChange}
+      />
+      <input
+        type='submit'
+        value='Find Movie Info'
+      />
+    </form>
+      <div className="omdb">
+    {(this.state.movie)
+      ? <MovieInfo movie={this.state.movie} />
+      : null
+    }
+    </div>
+  </React.Fragment>
+
+
       { this.props.view.page === 'home'
       ? this.state.movies.map((postData) => (
         <Movie
@@ -116,11 +170,12 @@ handleDelete = (id) => {
         />
         ))
       :<Form
-  handleCreate={this.handleCreate}
-  handleUpdate={this.handleUpdate}
-  formInputs={this.props.formInputs}
-  view={this.props.view}
-/>
+          handleCreate={this.handleCreate}
+          handleUpdate={this.handleUpdate}
+          formInputs={this.props.formInputs}
+          view={this.props.view}
+        />
+
         }
 
       </main>
